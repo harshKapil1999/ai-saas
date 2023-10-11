@@ -42,6 +42,13 @@ const tools = [
     bgColor: "bg-green-700/10",
     href: "/code"
   },
+  {
+    label: "Creative Image",
+    icon: ImageIcon,
+    color: "text-pink-700",
+    bgColor: "bg-pink-700/10",
+    href: "/creative-image"
+  },
 ]
 
 const DashboardPage = () => {

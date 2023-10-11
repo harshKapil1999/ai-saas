@@ -61,11 +61,18 @@ const routes = [
         color: "text-green-700",
     },
     {
+        label: "Creative Image",
+        icon: ImageIcon,
+        href: "/creative-image",
+        color: "text-pink-700",
+    },
+    {
         label: "Settings",
         icon: Settings,
         href: "/settings",
         
     },
+    
 ];
 
 const Sidebar = () => {
