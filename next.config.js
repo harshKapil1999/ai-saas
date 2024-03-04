@@ -4,6 +4,8 @@ const nextConfig = {
         domains: [
             "oaidalleapiprodscus.blob.core.windows.net",
             "pbxt.replicate.delivery",
+            "replicate.delivery",
+            "replicate.com"
         ]
     }
 }
