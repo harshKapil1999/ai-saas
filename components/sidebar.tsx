@@ -31,15 +31,15 @@ const routes = [
         color: "text-sky-500",
     },
     {
-        label: "Conversation",
+        label: "Chat Completion",
         icon: MessageSquare,
         href: "/conversation",
         color: "text-violet-500",
     },
     {
-        label: "Image Generation",
+        label: "Creative Image",
         icon: ImageIcon,
-        href: "/image",
+        href: "/creative-image",
         color: "text-pink-700",
     },
     {
@@ -49,22 +49,16 @@ const routes = [
         color: "text-orange-700",
     },
     {
-        label: "Music Generation",
-        icon: Music,
-        href: "/music",
-        color: "text-emerald-700",
-    },
-    {
         label: "Code Generation",
         icon: Code,
         href: "/code",
         color: "text-green-700",
     },
     {
-        label: "Creative Image",
-        icon: ImageIcon,
-        href: "/creative-image",
-        color: "text-pink-700",
+        label: "Music Generation",
+        icon: Music,
+        href: "/music",
+        color: "text-emerald-700",
     },
     {
         label: "Settings",
@@ -72,7 +66,12 @@ const routes = [
         href: "/settings",
         
     },
-    
+    /* {
+        label: "Image Generation",
+        icon: ImageIcon,
+        href: "/image",
+        color: "text-pink-700",
+    }, */
 ];
 
 const Sidebar = () => {

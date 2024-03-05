@@ -44,8 +44,8 @@ const VideoPage = () => {
             setVideo(undefined);
 
             const response = await axios.post("/api/video", values);
-
-            setVideo(response.data[0])
+            //console.log(response);
+            setVideo(response.data);
             form.reset();
 
         } catch (error: any) {
@@ -80,7 +80,7 @@ const VideoPage = () => {
                                             <Input 
                                                 className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                                                 disabled={isLoading}
-                                                placeholder="Clown fish swimming around a coral reef"
+                                                placeholder="Masterpiece, best quality, realistic girl, solo, black eyes, brown hairs, happy, outdoors."
                                                 {...field}
                                             />
                                         </FormControl>
