@@ -218,6 +218,7 @@ const ImagePage = () => {
                     {isLoading && (
                         <div className="p-20">
                             <Loader />
+                            <p className="text-center">Please wait while image is being generated...</p>
                         </div>
                     )}
                     {images.length === 0 && !isLoading && (
