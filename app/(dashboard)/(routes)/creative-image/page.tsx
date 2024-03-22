@@ -61,8 +61,8 @@ const ImagePage = () => {
         defaultValues: {
             prompt: "",
             amount: "1",
-            width: "1024",
-            height: "1024"
+            width: "512",
+            height: "512"
         }
     });
 
@@ -73,9 +73,9 @@ const ImagePage = () => {
             setImages([]);
             
             const response = await axios.post("/api/creative-image", values);
-            console.log(response);
+            //console.log(response);
             const urls = response.data;
-            console.log(urls);
+            //console.log(urls);
             setImages(urls);
             form.reset();
 
