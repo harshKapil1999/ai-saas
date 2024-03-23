@@ -95,7 +95,7 @@ const Sidebar = () => {
                         />
                     </div>
                     <h1 className={cn (' text-2xl font-bold', montserrat.className)}>
-                        Badka ji
+                        Harsh&apos;s AI
                     </h1>
                 </Link>
                 <div className='space-y-1'>

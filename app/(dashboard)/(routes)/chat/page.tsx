@@ -85,7 +85,7 @@ const ConversationPage = () => {
         <div>
             <Heading 
                 title="Chat Completion"
-                description="Our most advanced conversation model."
+                description="Our most advanced conversation model based on Meta-Llama-2-70b-Chat."
                 icon={MessageSquare}
                 iconColor="text-violet-500"
                 bgColor="bg-violet-500/10"
@@ -105,7 +105,7 @@ const ConversationPage = () => {
                                             <Input 
                                                 className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                                                 disabled={isLoading}
-                                                placeholder="Ask Badka ji anything..."
+                                                placeholder="Ask ai anything..."
                                                 {...field}
                                             />
                                         </FormControl>
